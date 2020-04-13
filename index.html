@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/Animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500,700&display=swap" rel="stylesheet">
+    <title>Orlova Elisaveta - Web-developer</title>
+</head>
+<body>
+    <div class="home" id="home">
+        <div class="home__overlay"></div>
+        <div class="home__text">
+            <div class="text--small">Hello, my name is Lisa Orlova and I am</div>
+            <div class="text--large">Frontend developer</div>
+            <div class="text--small">creating modern & responsive Web sites</div>
+        </div>
+        <a href="#header"><div class="home__button"></div></a>
+    </div>
+    <header class="header" id="header">
+        <nav class="header__menu">
+            <a class="header__menu__item" href="#home">Home</a>
+            <a class="header__menu__item" href="#skills">Skills</a>
+            <a class="header__menu__item" href="#works">Works</a>
+            <a class="header__menu__item" href="#contacts">Contacts</a>
+        </nav>
+    </header>
+    <div class="skills" id="skills">
+        <div class="container">
+            <h1 class="heading">What I know and what I use?</h1>
+            <div class="skill">
+                <h2 class="skill__name">HTML</h2>
+                <button class="plus"></button>
+                <div class="skill__features">
+                    <ul>
+                        <li>HTML5</li>
+                        <li>build up a website structure using tags</li>
+                        <li>Create difficult tables</li>
+                        <li>Write various forms</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="skill">
+                <h2 class="skill__name">CSS</h2>
+                <button class="plus"></button>
+                <div class="skill__features">
+                    <ul>
+                        <li>Make sites beatiful with CSS3</li>
+                        <li>Create animations</li>
+                        <li>Use technique "Flexbox"</li>
+                        <li>Use technique "CSS Grid"</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="skill">
+                <h2 class="skill__name">JS</h2>
+                <button class="plus"></button>
+                <div class="skill__features">
+                    <ul>
+                        <li>Write the simple scripts to interact with the DOM-tree</li>
+                        <li><span>P.S.</span> At the moment, that`s all =((<br> But I continue to learn this pretty interesting language))</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="row">
+                <div class="skill__image wow animated bounceInUp"><img src="./img/HTML_logo.png" alt=""></div>
+                <div class="skill__image wow animated bounceInDown"><img src="./img/CSS_logo.png" alt=""></div>
+                <div class="skill__image wow animated bounceInUp"><img src="./img/JS_logo.png" alt=""></div>
+            </div>
+        </div>
+        <div class="subsection">
+            <h1 class="heading wow animated fadeInRight">You think that`s all?</h1>
+            <h2 class="heading heading--small wow animated fadeInLeft" data-wow-delay="1s">No, you`re wrong...</h2>
+        </div>
+        <div class="container">
+            <h1 class="heading">My sites are universal</h1>
+            <div class="card__row">
+                <div class="card card--left wow animated fadeInRight">
+                    <div class="card__citation">
+                        I make responsive web sites. They adapt to the screen of a visitor's computing device, such as a computer, tablet or mobile phone. Thus, they look great the same pretty on each device.
+                    </div>
+                    <div class="row">
+                        <img src="./img/pc.svg" alt="">
+                        <img src="./img/tablet.svg" alt="">
+                        <img src="./img/phone.svg" alt="">
+                    </div>
+                </div>
+                <div class="card card--right wow animated fadeInLeft">
+                    <div class="row">
+                        <img src="./img/google.png" alt="">
+                        <img src="./img/firefox.png" alt="">
+                        <img src="./img/opera.png" alt="">
+                        <img src="./img/safari.png" alt="">
+                    </div>
+                    <div class="card__citation">
+                        I create cross-browser compatible websites. So, they are displayed and work correctly, regardless of which browser the visitor uses (it can be a Chrome, Firefox, Opera or Safari).
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="works" id="works">
+        <div class="subsection">
+            <h1 class="heading">Some of my works</h1>
+        </div>  
+        <div class="container">
+            <div class="row">
+                <div class="wrapper wow animated fadeInLeft"><img src="./img/lakes.png" alt=""></div>
+                <div class="wrapper wow animated fadeInRight"><img src="./img/yoga.png" alt=""></div>
+                <div class="wrapper wow animated fadeInRight"><img src="./img/index(2).png" alt=""></div>
+                <div class="wrapper wow animated fadeInLeft"><img src="./img/index(5).png" alt=""></div>
+                <div class="wrapper wow animated fadeInUp"><img src="./img/letter.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="contacts" id="contacts">
+        <div class="subsection">
+            <h1 class="heading">Want to chat?</h1>
+            <h2 class="heading heading--small">Just send me an email
+                <br><span>orlova.elizaveta1101@gmail.com</span><br><span class="or">OR</span><br>Find me in social networks
+                <br><a href="https://vk.com/id443852860">Orlova Elizaveta</a>
+            </h2>
+        </div> 
+    </div>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
+
+<!--script for header
+change type of position
+<span>"</span>
+
+PS добавить в разделители
+
+---галочка------
+<svg class="t508__checkmark" style="width:35px; height:35px;" fill="#ff7200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.8 31.8">
+                    <path d="M.9 14.5C5.2 19.4 9.8 24 14.1 29c.4.5 1.3.3 1.6-.2 5.1-8.4 10.1-16.8 15-25.4.7-1.2-.5-2.1-1.3-.9C19.3 18 19 18.4 13.9 26.7c.5-.1 1.1-.1 1.6-.2-4.4-4.8-8.9-8.6-13.9-12.8-.4-.4-1.1.3-.7.8z"></path>
+                </svg>
+-->
